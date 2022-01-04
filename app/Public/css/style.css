@@ -1,0 +1,507 @@
+body{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(196, 196, 196, 1);
+}
+
+.container {
+    background: linear-gradient(180deg, #231A12 0%, rgba(33, 25, 17, 0.56) 51.56%, #231A12 100%), url("https://en3yksrguy-flywheel.netdna-ssl.com/wp-content/uploads/2-Feroz-Bar-Club-Barcelona-Interior-Design-Pablo-Peyra-Studio-Spain-BPO.jpg") no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 32%;
+    background: rgba(196, 196, 196, 0.7);
+    border-radius: 20px;
+    position: relative; left: 3em;
+}
+
+form > input{
+    margin: 0 1em 1em 1em;
+    padding-left: 0.5em;
+
+    background: #FFFFFF;
+    opacity: 0.9;
+    border-radius: 20px;
+    line-height: 2.5em;
+    text-align: center;
+}
+
+button{
+    margin: 0 1em 1em 1em;
+    padding-left: 0.5em;
+    background: linear-gradient(180deg, rgba(33, 25, 17, 0.7) 0%, rgba(36, 27, 19, 0.7) 100%);
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: white;
+    line-height: 2.5em;
+}
+
+
+
+.logo{
+    width: 30%;
+    height: 34%;
+    text-align: center;
+    position: relative; right: 3em;
+}
+
+@media screen and (max-device-width: 390px) {
+    .container{
+        flex-direction: column;
+    }
+
+    * {
+        font-size: 36px;
+    }
+
+    .logo, .container {
+        width: 100%;
+    }
+    
+    form {
+        margin: auto;
+        width: 70%;
+        position: relative; left: 0.4em; right: 1em; 
+    }
+
+    .logo{
+        position: relative; left: 0.5em; right: 1em; top: 7em;
+    }
+}
+
+.base_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 90vh;
+    padding: 5px; margin: 5px; border: 10px solid #000;
+}
+
+nav{
+    width: 18vw;
+    height: 96vh;
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 20px 0px 0px 20px;
+    margin: 1em 1em 1em 1em ;
+}
+
+nav > img{
+    margin: 2em auto;
+    width: calc(106%);
+    position: relative; left: 0.1em;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 3em;
+}
+
+li i{
+    font-size: 1.5em;
+}
+
+.button{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+    letter-spacing: 0.1em;
+    font: normal normal normal 19px/20px Baumans;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+li {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+li:last-child{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+main{
+    position: absolute;
+    width: 80vw;
+    height: 96vh;
+    left: 123px;
+    top: 107px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 0px 20px 20px 0px;
+    position: absolute; left: 17.2em; top: 1em;
+}
+
+header{
+    color: black;
+    letter-spacing: 0.1em;
+    font: normal normal normal 1.5em Baumans;
+    margin: 0.5em 1em auto;
+}
+
+.form1{
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: 310px;
+    top: 100px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px 20px 20px 5px;
+}
+
+.form2{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    left: 850px;
+    top: 170px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px 20px 20px 5px;
+}
+
+.form3{
+    position: absolute;
+    width: 800px;
+    height: 320px;
+    left: 310px;
+    top: 460px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px 20px 20px 5px;
+}
+
+.pasek1 {
+    position: absolute;
+    width: 13px;
+    height: 320px;
+    left: -2px;
+    top: 0px;
+
+   background: #A46E61;
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   box-sizing: border-box;
+   border-radius: 20px;
+}
+
+.pasek2 {
+    position: absolute;
+    width: 13px;
+    height: 250px;
+    left: -2px;
+    top: 0px;
+
+    background: #E4C863;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.pasek3 {
+    position: absolute;
+    width: 13px;
+    height: 320px;
+    left: -2px;
+    top: 0px;
+
+   background: #A46E61;
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   box-sizing: border-box;
+   border-radius: 20px;
+} 
+
+nav1 > img{
+    margin: 2em auto;
+    width: calc(9%);
+    position: relative; left: 1.5em; top: -1.3em;
+}
+
+.button1{
+    color:black;
+    position: relative;
+    left: 4.2em;
+    top: -14.9em;
+    letter-spacing: 0.1em;
+    font: normal normal normal normal Baumans;
+}
+
+nav2 > img{
+    margin: 2em auto;
+    width: calc(9%);
+    position: relative; left: 1.5em; top: -1.3em;
+}
+
+.button2{
+    color:black;
+    position: relative;
+    left: 4.2em;
+    top: -10.6em;
+    letter-spacing: 0.1em;
+    font: normal normal normal normal Baumans;
+}
+
+nav3 > img{
+    margin: 2em auto;
+    width: calc(6,5%);
+    position: relative; left: 1.5em; top: -1.3em;
+}
+
+.button3{
+    color:black;
+    position: relative;
+    left: 4.2em;
+    top: -14.7em;
+    letter-spacing: 0.1em;
+    font: normal normal normal normal Baumans;
+}
+
+main2>img{
+    margin: 2em auto;
+    width: calc(6,5%);
+    position: relative; left: 1.5em; top: 4.6em;
+}
+
+div.info{
+    color:black;
+    margin: 2em auto;
+    width: calc(6,5%);
+    position: relative; left: 7em; top: -1em;
+    letter-spacing: 0.1em;
+    font: normal normal normal normal Baumans;
+}
+
+div.data{
+    color:black;
+    margin: 2em auto;
+    width: calc(6,5%);
+    position: relative; left: 7em; top: -1em;
+    letter-spacing: 0.1em;
+    font: normal normal normal normal Baumans;
+}
+
+profile{
+    position: absolute;
+width: 415px;
+height: 518px;
+left: 355px;
+top: 180px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px 20px 20px 5px;
+}
+
+data{
+    position: absolute;
+width: 415px;
+height: 518px;
+left: 842px;
+top: 180px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px 20px 20px 5px;
+}
+
+.pasek4{
+position: absolute;
+width: 13px;
+height: 518px;
+left: -1px;
+top: 0px;
+
+background: #A46E61;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+.pasek5{
+    position: absolute;
+width: 13px;
+height: 518px;
+left: -1px;
+top: 0px;
+
+background: #A46E61;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+.podkreslenie{
+    position: relative;
+    width: 181px;
+    height: 0px;
+    left: 40px;
+    top: 260px;
+
+border: 1px solid #000000;
+}
+
+
+.podkreslenie2{
+    position: relative;
+    width: 181px;
+    height: 0px;
+    left: 37px;
+    top: 185px;
+
+border: 1px solid #000000;
+}
+
+.f1{
+    position: absolute;
+width: 337px;
+height: 50px;
+left: 45px;
+top: 220px;
+
+background: rgba(210, 153, 139, 0.7);
+border: 1px solid rgba(0, 0, 0, 0.8);
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+i.fas.fa-camera{
+    position: relative;
+    left: 1em;
+    top: 1.8px;
+    font-size: 20px;
+}
+
+.f2{
+    position: absolute;
+width: 337px;
+height: 83px;
+left: 45px;
+top: 300px;
+
+background: rgba(210, 153, 139, 0.7);
+border: 1px solid rgba(0, 0, 0, 0.8);
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+.f3{
+    position: absolute;
+width: 337px;
+height: 83px;
+left: 45px;
+top: 400px;
+
+background: rgba(210, 153, 139, 0.7);
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+.f2 > i.fas.fa-user{
+    position: relative;
+    left: 1em;
+    top: 18px;
+    size: 2em;
+    font-size: 20px;
+}
+
+i.fas.fa-key{
+    position: relative;
+    left: 1em;
+    top: 18px;
+    font-size: 20px;
+}
+
+.f1> a.button{
+    text-align: center;
+    position: relative;
+    left: 3.5em;
+    letter-spacing: 0.1em;
+    color: #000000;
+    font-family: Baumans;
+    font-size: 16px;
+}
+
+.f2 > a.button{
+    text-align: center;
+    position: relative;
+    left: 5.5em;
+    top: 1em;
+    letter-spacing: 0.1em;
+    color: #000000;
+    font-family: Baumans;
+    font-size: 16px;
+}
+
+.f3> a.button{
+    text-align: center;
+    position: relative;
+    left: 6.2em;
+    top: 1em;
+    letter-spacing: 0.1em;
+    color: #000000;
+    font-family: Baumans;
+    font-size: 16px;
+}
+
+.dane1{
+    position: relative;
+    width: 105px;
+    height: 105px;
+    left: 150px;
+    top: 25px;
+
+background: rgba(255, 255, 255, 0.6);
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 4em;
+
+}
+
+.dane1 > div{
+    letter-spacing: 0.1em;
+    color: #000000;
+    font-family: Baumans;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 1.1em;
+}
+ .dane2 >div{
+    letter-spacing: 0.1em;
+    color: #000000;
+    font-family: Baumans;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 2em;
+ }
