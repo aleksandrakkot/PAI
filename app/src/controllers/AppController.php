@@ -4,7 +4,7 @@ class AppController {
 
     protected function render(string $template = null, array $variables = []) //metoda będzie dziedziczona przez inne klasy
     {
-        $templatePath = 'public/views/'. $template.'.html';
+        $templatePath = 'public/views/'. $template.'.php';
         $output = 'File not found';
                 
         if(file_exists($templatePath)){  //czy istnieją pliki z tym rozszerzeniem
