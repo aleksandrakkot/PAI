@@ -53,7 +53,17 @@ button{
     line-height: 2.5em;
 }
 
-
+form.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150%;
+    height: 32%;
+    background: rgba(196, 196, 196, 0.7);
+    border-radius: 20px;
+    position: relative;
+    left: 3em;
+}
 
 .logo{
     width: 30%;

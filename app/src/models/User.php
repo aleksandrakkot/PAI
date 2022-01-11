@@ -18,6 +18,7 @@ class User {
         $this->surname = $surname;
     }
 
+
     public function getEmail(): string
     {
         return $this->email;
@@ -27,4 +28,5 @@ class User {
     {
         return $this->password;
     }
+
 }

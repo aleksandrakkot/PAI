@@ -23,8 +23,9 @@
                     </div>
                 <input name="email" type="text" placeholder="E-mail">
                 <input name="password" type="password" placeholder="Kod PIN">
-                <button type="submit"><a href="/homepage">Zaloguj się</a></button>
+                <button type="submit">Zaloguj się</a></button>
              </form>
         </div>
     </body>
 </html>
+

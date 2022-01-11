@@ -8,6 +8,6 @@ $path = parse_url($path, PHP_URL_PATH);
 Routing::get('','DefaultController');
 Routing::get('homepage','DefaultController');
 Routing::get('user','DefaultController');
-//Routing::post('login','SecurityController');
+Routing::post('login','SecurityController');
 Routing::run($path);
 
