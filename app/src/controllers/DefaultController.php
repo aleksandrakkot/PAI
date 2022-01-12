@@ -18,6 +18,26 @@ class  DefaultController extends AppController{
     {
         $this->render('user');
     }
+
+    public function shifts()
+    {
+        $this->render('shifts');
+    }
+
+    public function holidays()
+    {
+        $this->render('holidays');
+    }
+
+    public function workedtime()
+    {
+        $this->render('workedtime');
+    }
+
+    public function swap()
+    {
+        $this->render('swap');
+    }
     // public function dashboard()
     // {
     //      //TO_DO get data from database

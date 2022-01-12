@@ -9,5 +9,9 @@ Routing::get('','DefaultController');
 Routing::get('homepage','DefaultController');
 Routing::get('user','DefaultController');
 Routing::post('login','SecurityController');
+Routing::get('shifts','DefaultController');
+Routing::get('holidays','DefaultController');
+Routing::get('workedtime','DefaultController');
+Routing::get('swap','DefaultController');
 Routing::run($path);
 

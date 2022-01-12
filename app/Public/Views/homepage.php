@@ -22,23 +22,23 @@
                     </li>
                     <li>
                         <i class="far fa-calendar"></i>
-                        <a href="#" class="button">Shifts</a>
+                        <a href="/shifts" class="button">Shifts</a>
                     </li>
                     <li>
                         <i class="fas fa-umbrella-beach"></i>
-                        <a href="#" class="button">Holidays</a>
+                        <a href="/holidays" class="button">Holidays</a>
                     </li>
                     <li>
                         <i class="far fa-calendar-check"></i>
-                        <a href="#" class="button">Worked time</a>
+                        <a href="/workedtime" class="button">Worked time</a>
                     </li>
                     <li>
                         <i class="fas fa-sync"></i>
-                        <a href="#" class="button">Swap shifts</a>
+                        <a href="/swap" class="button">Swap shifts</a>
                     </li>
                     <li>
                         <i class="fas fa-power-off"></i>
-                        <a href="#" class="button">Wyjdź</a>
+                        <a href="/login" class="button">Wyjdź</a>
                     </li>
                 </ul>
             </nav>

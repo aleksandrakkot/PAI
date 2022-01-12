@@ -32,7 +32,7 @@ form{
 }
 
 form > input{
-    margin: 0 1em 1em 1em;
+    margin: 1em 1em 1em;
     padding-left: 0.5em;
 
     background: #FFFFFF;
@@ -386,6 +386,16 @@ border: 1px solid #000000;
     top: 185px;
 
 border: 1px solid #000000;
+}
+
+div.podkreslenie3{
+    position: relative;
+    width: 181px;
+    height: 0px;
+    left: 37px;
+    top: 340px;
+
+    border: 1px solid #000000;
 }
 
 .f1{
