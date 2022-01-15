@@ -44,7 +44,7 @@
             </nav>
             <main>
                 <header>
-                    <div class="dom" style="letter-spacing: 0.1em; margin: 0.5em 1em auto; font: normal normal normal 1.4em Baumans; color: black">
+                    <div class="dom">
                         <i class="fas fa-user"></i> Dane osobowe                    
                     </div>
                 </header>

@@ -32,7 +32,7 @@ form{
 }
 
 form > input{
-    margin: 1em 1em 1em;
+    margin: 1em 1em 1em 1em;
     padding-left: 0.5em;
 
     background: #FFFFFF;
@@ -398,6 +398,36 @@ div.podkreslenie3{
     border: 1px solid #000000;
 }
 
+div.podkreslenie4{
+    position: relative;
+    width: 181px;
+    height: 0px;
+    left: 37px;
+    top: 495px;
+
+    border: 1px solid #000000;
+}
+
+div.podkreslenie5{
+    position: relative;
+    width: 181px;
+    height: 0px;
+    left: 37px;
+    top: 650px;
+
+    border: 1px solid #000000;
+}
+
+div.podkreslenie6{
+    position: relative;
+    width: 181px;
+    height: 0px;
+    left: 37px;
+    top: 805px;
+
+    border: 1px solid #000000;
+}
+
 .f1{
     position: absolute;
 width: 337px;
@@ -524,4 +554,11 @@ border-radius: 4em;
     font-size: 20px;
     position: relative;
     top: 2em;
+ }
+
+ div.dom{
+     color: black;
+     letter-spacing: 0.1em;
+     font: normal normal normal 1.5em Baumans;
+     margin: 0.5em 1em auto;
  }

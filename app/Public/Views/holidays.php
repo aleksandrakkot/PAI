@@ -9,7 +9,7 @@
 <body>
 <div class="base-container">
     <nav>
-        <div class="podkreslenie3"></div>
+        <div class="podkreslenie4"></div>
         <img src="/Public/img/logo_web.svg">
         <ul>
             <li>
@@ -44,7 +44,7 @@
     </nav>
     <main>
         <header>
-            <div class="dom" style="letter-spacing: 0.1em; margin: 0.5em 1em auto; font: normal normal normal 1.4em Baumans; color: black">
+            <div class="dom">
                 <i class="fas fa-umbrella-beach"></i> Holidays
             </div>
         </header>

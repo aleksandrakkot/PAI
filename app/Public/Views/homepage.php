@@ -55,7 +55,7 @@
                 <img src="/Public/img/dom.svg">
                 <lu>
                     <li>
-                         <a href="#" class="button1">Nestępna zmiana</a>
+                         <a href="/shifts" class="button1">Nestępna zmiana</a>
                     </li>
                 </lu>
             </nav1>
@@ -70,7 +70,7 @@
                 <img src="/Public/img/holidays.svg">
                 <lu>
                     <li>
-                        <a href="#" class="button2">Nestępny urlop</a>
+                        <a href="/holidays" class="button2">Nestępny urlop</a>
                     </li>
                 </lu>
             </nav2>
