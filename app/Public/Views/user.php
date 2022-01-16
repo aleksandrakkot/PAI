@@ -14,7 +14,7 @@
                 <ul>
                     <li>
                         <i class="fas fa-user"></i>
-                        <a href="#" class="button">Aleksandra Kot</a>
+                        <a href="#" class="button"><?php echo $user->getName();?> <?php echo $user->getSurname(); ?></a>
                     </li>
                     <li>
                         <i class="fas fa-home"></i>
@@ -54,8 +54,8 @@
                     <div>AK</div>  
                 </div>
                 <div class="dane2">
-                    <div>Aleksandra Kot</div>
-                    <div>aleksandrak.kot@gmail.com</div>
+                    <div><?php echo $user->getName();?> <?php echo $user->getSurname(); ?></div>
+                    <div><?php echo $user->getEmail(); ?></div>
                 </div>
                 <div class="pasek4"></div>
                 <div class="f1">

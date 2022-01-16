@@ -31,6 +31,8 @@ class SecurityController extends AppController {
             return $this->render('login', ['messages' => ['Wrong password!']]);
         }
 
+        setcookie("user_email",$email, time() + (86400 * 30), "/");
+
         $url = "http://$_SERVER[HTTP_HOST]";
         header("Location: {$url}/homepage");
     }

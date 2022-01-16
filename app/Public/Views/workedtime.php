@@ -14,7 +14,7 @@
         <ul>
             <li>
                 <i class="fas fa-user"></i>
-                <a href="/user" class="button">Aleksandra Kot</a>
+                <a href="/user" class="button"><?php echo $user->getName();?> <?php echo $user->getSurname(); ?></a>
             </li>
             <li>
                 <i class="fas fa-home"></i>

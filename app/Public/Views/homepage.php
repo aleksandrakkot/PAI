@@ -14,7 +14,7 @@
                 <ul>
                     <li>
                         <i class="fas fa-user"></i>
-                        <a href="/user" class="button">Aleksandra Kot</a>
+                        <a href="/user" class="button"><?php echo $user->getName();?> <?php echo $user->getSurname(); ?></a>
                     </li>
                     <li>
                         <i class="fas fa-home"></i>
@@ -45,7 +45,7 @@
             <main>
                 <header>
                     <div class="Hello">
-                        Good Morning, Aleksandra <img src="/Public/img/hello.svg">                     
+                        Good Morning, <?php echo $user->getName(); ?> <img src="/Public/img/hello.svg">
                     </div>
                 </header>
             </main>

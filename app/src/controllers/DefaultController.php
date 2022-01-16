@@ -3,7 +3,9 @@
 require_once 'AppController.php';
 
 class  DefaultController extends AppController{
-    
+
+
+
     public function index()
     {
         $this->render('login');
@@ -11,32 +13,80 @@ class  DefaultController extends AppController{
 
     public function homepage()
     {
-        $this->render('homepage');
+        if(isset($_COOKIE["user_email"]))
+        {
+            $userRepository = new UserRepository();
+            $email = $_COOKIE["user_email"];
+            $user = $userRepository->getUser($email);
+            $data = array();
+            $data["user"] = $user;
+            $this->render('homepage', $data);
+        }
     }
 
     public function user()
     {
-        $this->render('user');
+        if(isset($_COOKIE["user_email"]))
+        {
+            $userRepository = new UserRepository();
+            $email = $_COOKIE["user_email"];
+            $user = $userRepository->getUser($email);
+            $data = array();
+            $data["user"] = $user;
+            $this->render('user', $data);
+        }
     }
 
     public function shifts()
     {
-        $this->render('shifts');
+        if(isset($_COOKIE["user_email"]))
+        {
+            $userRepository = new UserRepository();
+            $email = $_COOKIE["user_email"];
+            $user = $userRepository->getUser($email);
+            $data = array();
+            $data["user"] = $user;
+            $this->render('shifts', $data);
+        }
     }
 
     public function holidays()
     {
-        $this->render('holidays');
+        if(isset($_COOKIE["user_email"]))
+        {
+            $userRepository = new UserRepository();
+            $email = $_COOKIE["user_email"];
+            $user = $userRepository->getUser($email);
+            $data = array();
+            $data["user"] = $user;
+            $this->render('holidays', $data);
+        }
     }
 
     public function workedtime()
     {
-        $this->render('workedtime');
+        if(isset($_COOKIE["user_email"]))
+        {
+            $userRepository = new UserRepository();
+            $email = $_COOKIE["user_email"];
+            $user = $userRepository->getUser($email);
+            $data = array();
+            $data["user"] = $user;
+            $this->render('workedtime', $data);
+        }
     }
 
     public function swap()
     {
-        $this->render('swap');
+        if(isset($_COOKIE["user_email"]))
+        {
+            $userRepository = new UserRepository();
+            $email = $_COOKIE["user_email"];
+            $user = $userRepository->getUser($email);
+            $data = array();
+            $data["user"] = $user;
+            $this->render('swap', $data);
+        }
     }
     // public function dashboard()
     // {
