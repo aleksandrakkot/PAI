@@ -573,13 +573,76 @@ border-radius: 4em;
      border-radius: 20px;
      position: relative;
      left: 7em;
-     top: -3em;
+     top: -5em;
  }
 
- d1 > img {
+.d1 > img {
      margin: 2em auto;
      width: calc(15%);
      position: relative;
      left: 1.5em;
-     top: 3em;
+     top: 1em;
  }
+
+form.d2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 32%;
+    background: rgba(196, 196, 196, 0.7);
+    border-radius: 20px;
+    position: relative;
+    left: 7em;
+    top: -10.1em;
+}
+
+.d2 > img {
+    margin: 2em auto;
+    width: calc(15%);
+    position: relative;
+    left: 1.5em;
+    top: -4em;
+}
+
+form.d3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 32%;
+    background: rgba(196, 196, 196, 0.7);
+    border-radius: 20px;
+    position: relative;
+    left: 7em;
+    top: -15.2em;
+}
+
+.d3 > img {
+    margin: 2em auto;
+    width: calc(15%);
+    position: relative;
+    left: 1.5em;
+    top: -9em;
+}
+
+form.d4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 32%;
+    background: rgba(196, 196, 196, 0.7);
+    border-radius: 20px;
+    position: relative;
+    left: 7em;
+    top: -20.2em;
+}
+
+.d4 > img {
+    margin: 2em auto;
+    width: calc(15%);
+    position: relative;
+    left: 1.5em;
+    top: -14em;
+}

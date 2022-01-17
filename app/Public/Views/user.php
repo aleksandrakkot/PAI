@@ -78,6 +78,24 @@
                         <input name="name" type="text" placeholder="Imię">
                     </form>
                 </div>
+                <div class="d2">
+                    <img src="/Public/img/imie.svg">
+                    <form class="d2" method="POST">
+                        <input name="surname" type="text" placeholder="Nazwisko">
+                    </form>
+                </div>
+                <div class="d3">
+                    <img src="/Public/img/emaild.svg">
+                    <form class="d3" method="POST">
+                        <input name="emial" type="text" placeholder="E-mail">
+                    </form>
+                </div>
+                <div class="d4">
+                    <img src="/Public/img/data.svg">
+                    <form class="d4" method="POST">
+                        <input name="date" type="text" placeholder="Data urodzenia">
+                    </form>
+                </div>
 
                 <div class="pasek5"></div>
             </data>
