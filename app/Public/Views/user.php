@@ -72,6 +72,13 @@
                 </div>
             </profile>
             <data>
+                <div class="d1">
+                    <img src="/Public/img/imie.svg">
+                    <form class="d1" method="POST">
+                        <input name="name" type="text" placeholder="Imię">
+                    </form>
+                </div>
+
                 <div class="pasek5"></div>
             </data>
     </body>
