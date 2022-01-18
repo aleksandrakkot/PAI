@@ -17,8 +17,14 @@ class SecurityController extends AppController {
 
         $email = $_POST['email']; //przechwytujemy dane
         $password = $_POST['password'];
+//        $hashPassword = password_hash($password,PASSWORD_DEFAULT);
 
         $user = $userRepository->getUser($email);
+
+//        $pwd_peppered = hash_hmac("sha256", $password, "1234");
+//        echo $pwd_peppered;
+
+        $pwd_peppered = hash_hmac("sha256", $password, "1234");
         if (!$user) { //sprawdzamy czy dany użytkownik istnieje
             return $this->render('login', ['messages' => ['User not found!']]);
         }
@@ -27,7 +33,7 @@ class SecurityController extends AppController {
             return $this->render('login', ['messages' => ['User with this email not exist!']]);
         }
 
-        if ($user->getPassword() !== $password) {
+        if ($pwd_peppered != $user->getPassword()) {
             return $this->render('login', ['messages' => ['Wrong password!']]);
         }
 

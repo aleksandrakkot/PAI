@@ -7,6 +7,11 @@
         <title>Dane osobowe</title>
     </head>
     <body>
+    <?php
+
+
+echo php_ini_loaded_file(); ?>
+
         <div class="base-container">
             <nav>
                 <div class="podkreslenie2"></div>
@@ -51,7 +56,7 @@
             </main>
             <profile>
                 <div class="dane1">
-                    <div>AK</div>  
+                    <div></div>
                 </div>
                 <div class="dane2">
                     <div><?php echo $user->getName();?> <?php echo $user->getSurname(); ?></div>
@@ -60,7 +65,11 @@
                 <div class="pasek4"></div>
                 <div class="f1">
                     <i class="fas fa-camera"></i>
-                    <a href="/addPhoto" class="button">Zmień zdjęcie profilowe</a>
+                    <form action="addPhoto" method="POST" enctype="multipart/form-data">
+                        <input type="file" name="file" id="file">
+                        <button type="submit" class="button">Zmień zdjęcie profilowe</button>
+                    </form>
+
                 </div>
                 <div class="f2">
                     <i class="fas fa-user"></i>

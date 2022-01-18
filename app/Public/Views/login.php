@@ -22,7 +22,7 @@
                         ?>
                     </div>
                 <input name="email" type="text" placeholder="E-mail">
-                <input name="password" type="password" placeholder="Kod PIN">
+                <input name="password" type="password" placeholder="Hasło">
                 <button type="submit">Zaloguj się</a></button>
              </form>
         </div>
