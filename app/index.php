@@ -13,5 +13,6 @@ Routing::get('shifts','DefaultController');
 Routing::get('holidays','DefaultController');
 Routing::get('workedtime','DefaultController');
 Routing::get('swap','DefaultController');
+Routing::post('addPhoto','PhotoController');
 Routing::run($path);
 

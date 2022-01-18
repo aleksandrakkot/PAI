@@ -60,7 +60,7 @@
                 <div class="pasek4"></div>
                 <div class="f1">
                     <i class="fas fa-camera"></i>
-                    <a href="/addPhoto" class="button">Zmień zdjęcie profilowe</a>
+                    <a href="#" class="button">Zmień zdjęcie profilowe</a>
                 </div>
                 <div class="f2">
                     <i class="fas fa-user"></i>
@@ -71,33 +71,20 @@
                     <a href="#" class="button">Zmień PIN</a>
                 </div>
             </profile>
-            <data>
-                <div class="d1">
-                    <img src="/Public/img/imie.svg">
-                    <form class="d1" method="POST">
-                        <input name="name" type="text" placeholder="Imię: <?php echo $user->getName();?>">
-                    </form>
-                </div>
-                <div class="d2">
-                    <img src="/Public/img/imie.svg">
-                    <form class="d2" method="POST">
-                        <input name="surname" type="text" placeholder="Nazwisko: <?php echo $user->getSurname();?>">
-                    </form>
-                </div>
-                <div class="d3">
-                    <img src="/Public/img/emaild.svg">
-                    <form class="d3" method="POST">
-                        <input name="emial" type="text" placeholder="E-mail: <?php echo $user->getemail();?>">
-                    </form>
-                </div>
-                <div class="d4">
-                    <img src="/Public/img/data.svg">
-                    <form class="d4" method="POST">
-                        <input name="date" type="text" placeholder="Data urodzenia: <?php echo $user->getDate();?>">
-                    </form>
-                </div>
-
+            <selection class="photo">
+                <h1>Zmiana zdjęcia</h1>
+                <form action="addPhoto" method="POST" ENCTYPE="multipart/form-data">
+                    <?php
+                    if(isset($messages)){
+                        foreach($messages as $message) {
+                            echo $message;
+                        }
+                    }
+                    ?>
+                    <input type="file" name="file">
+                    <button type="submit">send</button>
+                </form>
                 <div class="pasek5"></div>
-            </data>
+            </selection>
     </body>
 </html>
