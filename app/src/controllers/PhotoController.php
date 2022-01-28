@@ -19,7 +19,6 @@ class PhotoController extends AppController {
                dirname(__DIR__).self::UPLOAD_DIRECTORY.$_FILES['file']['name'] //łączymy ścieżkę do katalogu, ścieżkę do uploadu i dołączamy nazwe pliku
            );
 
-
             return $this->render('addPhoto', ['messages' => $this->message]);
         }
         $this->render('addPhoto', ['messages' => $this->message]);

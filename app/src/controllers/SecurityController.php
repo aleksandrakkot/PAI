@@ -17,12 +17,8 @@ class SecurityController extends AppController {
 
         $email = $_POST['email']; //przechwytujemy dane
         $password = $_POST['password'];
-//        $hashPassword = password_hash($password,PASSWORD_DEFAULT);
 
         $user = $userRepository->getUser($email);
-
-//        $pwd_peppered = hash_hmac("sha256", $password, "1234");
-//        echo $pwd_peppered;
 
         $pwd_peppered = hash_hmac("sha256", $password, "1234");
         if (!$user) { //sprawdzamy czy dany użytkownik istnieje

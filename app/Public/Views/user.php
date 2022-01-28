@@ -56,6 +56,7 @@ echo php_ini_loaded_file(); ?>
             </main>
             <profile>
                 <div class="dane1">
+                    <img src="/Public/uploads/Ewelina_Boczar1.jfif">
                     <div></div>
                 </div>
                 <div class="dane2">
@@ -63,10 +64,9 @@ echo php_ini_loaded_file(); ?>
                     <div><?php echo $user->getEmail(); ?></div>
                 </div>
                 <div class="pasek4"></div>
-                <div class="f1">
-                    <i class="fas fa-camera"></i>
+                <div class="zdj">
                     <form action="addPhoto" method="POST" enctype="multipart/form-data">
-                        <input type="file" name="file" id="file">
+                        <input type="file" name="file">
                         <button type="submit" class="button">Zmień zdjęcie profilowe</button>
                     </form>
 

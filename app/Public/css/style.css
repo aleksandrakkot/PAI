@@ -428,18 +428,18 @@ div.podkreslenie6{
     border: 1px solid #000000;
 }
 
-.f1{
-    position: absolute;
-width: 337px;
-height: 50px;
-left: 45px;
-top: 220px;
+/*.f1{*/
+/*    position: absolute;*/
+/*width: 337px;*/
+/*height: 50px;*/
+/*left: 45px;*/
+/*top: 220px;*/
 
-background: rgba(210, 153, 139, 0.7);
-border: 1px solid rgba(0, 0, 0, 0.8);
-box-sizing: border-box;
-border-radius: 20px;
-}
+/*background: rgba(210, 153, 139, 0.7);*/
+/*border: 1px solid rgba(0, 0, 0, 0.8);*/
+/*box-sizing: border-box;*/
+/*border-radius: 20px;*/
+/*}*/
 
 i.fas.fa-camera{
     position: relative;
@@ -645,4 +645,26 @@ form.d4{
     position: relative;
     left: 1.5em;
     top: -14em;
+}
+
+profile.zdj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.zdj > form {
+    width: 80%;
+    height: 22%;
+    background: rgba(196, 196, 196, 0.7);
+    border-radius: 20px;
+    position: relative;
+    left: 3em;
+    top: 2.3em;
+}
+
+div.dane1 > img {
+    width: 105px;
+    height: 105px;
+    border-radius: 4em;
 }
