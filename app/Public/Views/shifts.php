@@ -49,9 +49,13 @@
             </div>
         </header>
         <div class="shift_cal">
+
         </div>
+        <div class="p1"> </div>
         <div class="shift_t">
+
         </div>
+        <div class="p2"> </div>
     </main>
 
 

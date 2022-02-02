@@ -14,6 +14,6 @@ Routing::get('holidays','DefaultController');
 Routing::get('workedtime','DefaultController');
 Routing::get('swap','DefaultController');
 Routing::post('addPhoto','PhotoController');
-
+Routing::post('register','DefaultController');
 Routing::run($path);
 

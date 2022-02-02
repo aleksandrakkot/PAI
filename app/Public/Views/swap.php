@@ -49,11 +49,11 @@
             </div>
         </header>
         <div class="s1">
-
         </div>
+        <div class="p7"> </div>
         <div class="s2">
-
         </div>
+        <div class="p8"> </div>
 
     </main>
 

@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="/Public/css/style.css"/>
         <link rel="stylesheet" type="text/css" href="/Public/css/grafik-sprzatan.css"/>
         <script src="https://kit.fontawesome.com/218395494c.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./public/js/script.js" defer></script>
         <title>Dane osobowe</title>
     </head>
     <body>

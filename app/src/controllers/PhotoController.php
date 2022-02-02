@@ -13,10 +13,12 @@ class PhotoController extends AppController {
     private $message = [];
     public function addPhoto()
     {
-        if($this->isPost() && is_uploaded_file($_FILES['file']['tmp_name']) && $this->validate($_FILES['file'])){  //sprawdzamy czy plik jest dotowy do uploadu
+        //sprawdzamy czy plik jest dotowy do uploadu
+        if($this->isPost() && is_uploaded_file($_FILES['file']['tmp_name']) && $this->validate($_FILES['file'])){
            move_uploaded_file(
                $_FILES['file']['tmp_name'],
-               dirname(__DIR__).self::UPLOAD_DIRECTORY.$_FILES['file']['name'] //łączymy ścieżkę do katalogu, ścieżkę do uploadu i dołączamy nazwe pliku
+               //łączymy ścieżkę do katalogu, ścieżkę do uploadu i dołączamy nazwe pliku
+               dirname(__DIR__).self::UPLOAD_DIRECTORY.$_FILES['file']['name']
            );
 
             return $this->render('addPhoto', ['messages' => $this->message]);

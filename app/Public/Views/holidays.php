@@ -49,9 +49,19 @@
             </div>
         </header>
         <div class="h1">
+            <nav2>
+                <img src="/Public/img/holidays.svg">
+                <lu>
+                    <li>
+                        <a href="/holidays" class="button2">Nestępny urlop</a>
+                    </li>
+                </lu>
+            </nav2>
         </div>
+        <div class="p3"> </div>
         <div class="h2">
         </div>
+        <div class="p4"> </div>
     </main>
 
 
