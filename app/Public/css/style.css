@@ -673,7 +673,7 @@ div.shift_cal{
     position: absolute;
     width: 544px;
     height: 418px;
-    left: 336px;
+    left: 50px;
     top: 200px;
 
     background: #FFFFFF;
@@ -685,7 +685,7 @@ div.shift_t{
     position: absolute;
     width: 391px;
     height: 418px;
-    left: 900px;
+    left: 650px;
     top: 200px;
 
     background: rgba(210, 153, 139, 0.4);
@@ -698,8 +698,8 @@ div.h1{
     position: absolute;
     width: 363px;
     height: 234px;
-    left: 377px;
-    top: 300px;
+    left: 50px;
+    top: 250px;
 
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -710,8 +710,8 @@ div.h2{
     position: absolute;
     width: 476px;
     height: 423px;
-    left: 776px;
-    top: 300px;
+    left: 500px;
+    top: 250px;
 
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -722,8 +722,8 @@ div.w1{
     position: absolute;
     width: 417px;
     height: 60px;
-    left: 348px;
-    top: 269px;
+    left: 50px;
+    top: 200px;
 
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -734,8 +734,8 @@ div.w2{
     position: absolute;
     width: 417px;
     height: 397px;
-    left: 348px;
-    top: 360px;
+    left: 50px;
+    top: 300px;
 
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -746,8 +746,8 @@ div.w3{
     position: absolute;
     width: 463px;
     height: 488px;
-    left: 800px;
-    top: 269px;
+    left: 550px;
+    top: 200px;
 
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -758,8 +758,8 @@ div.s1{
     position: absolute;
     width: 428px;
     height: 260px;
-    left: 377px;
-    top: 367px;
+    left: 50px;
+    top: 250px;
 
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -770,8 +770,8 @@ div.s2{
     position: absolute;
     width: 407px;
     height: 420px;
-    left: 857px;
-    top: 318px;
+    left: 550px;
+    top: 250px;
 
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
