@@ -7,13 +7,13 @@ Launch: połączenie z kontenerem docker oraz uruchomienie kontenera -> docker-c
 
 Generalne wydoki i zastosowanie: \
 register -> rejestracja użytkownika (validacja danych) \
-![img_3.png](img_3.png)
-login -> logowanie pracownika, wpisywanie emialu i hasała (metoda POST, GET) \
 ![img.png](img.png)
-homepage -> dane o nastepnej zmianie, grafik sprzątania, urlop \
-![img_2.png](img_2.png)
-user -> dane o użytkowniku pobranych z bazy danych (upload zdjęcia)\
+login -> logowanie pracownika, wpisywanie emialu i hasała (metoda POST, GET) \
 ![img_1.png](img_1.png)
+homepage -> dane o nastepnej zmianie, grafik sprzątania, urlop \
+![img_3.png](img_3.png)
+user -> dane o użytkowniku pobranych z bazy danych (upload zdjęcia)\
+![img_2.png](img_2.png)
 shifts -> zmiany na cały miesiąc, konketne godziny i dni \
 holidays -> zaplanowany urlop  \
 workedtime -> podumowanie zmian w ciągu miesiąca, podgląd do wypłat\
