@@ -48,6 +48,13 @@
                 <i class="fas fa-sync"></i> Swap Shifts
             </div>
         </header>
+        <div class="s1">
+
+        </div>
+        <div class="s2">
+
+        </div>
+
     </main>
 
 </body>

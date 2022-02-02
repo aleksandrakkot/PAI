@@ -56,8 +56,7 @@ echo php_ini_loaded_file(); ?>
             </main>
             <profile>
                 <div class="dane1">
-                    <img src="/Public/uploads/Ewelina_Boczar1.jfif">
-                    <div></div>
+
                 </div>
                 <div class="dane2">
                     <div><?php echo $user->getName();?> <?php echo $user->getSurname(); ?></div>

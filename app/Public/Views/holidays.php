@@ -48,7 +48,12 @@
                 <i class="fas fa-umbrella-beach"></i> Holidays
             </div>
         </header>
+        <div class="h1">
+        </div>
+        <div class="h2">
+        </div>
     </main>
+
 
 </body>
 </html>

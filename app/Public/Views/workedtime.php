@@ -48,7 +48,17 @@
                 <i class="far fa-calendar-check"></i> Worked Time
             </div>
         </header>
+        <div class="w1">
+
+        </div>
+        <div class="w2">
+
+        </div>
+        <div class="w3">
+
+        </div>
     </main>
+
 
 </body>
 </html>
