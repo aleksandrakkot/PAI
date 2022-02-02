@@ -1,6 +1,8 @@
 # PAI
 PHP project description \
-Aplikacja do zarządzania danymi pracowinka (~payroll). 
+Title: STAFFBOOK \
+Zastosowanie: Aplikacja do zarządzania danymi pracowinka (~payroll) \
+Technologie: CCS, PHP, JS
 
 Generalne wydoki i zastosowanie: \
 register -> rejestracja użytkownika (validacja danych) \
