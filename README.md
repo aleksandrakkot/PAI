@@ -2,7 +2,8 @@
 PHP project description \
 Aplikacja do zarządzania danymi pracowinka (~payroll). 
 
-register -> rejestracja użytkownika, validacja danych \
+Generalne wydoki i zastosowanie: \
+register -> rejestracja użytkownika (validacja danych) \
 login -> logowanie pracownika, wpisywanie emialu i hasała (metoda POST, GET) \
 homepage -> dane o nastepnej zmianie, grafik sprzątania, urlop \
 user -> dane o użytkowniku pobranych z bazy danych (upload zdjęcia)\
