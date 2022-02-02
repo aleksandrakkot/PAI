@@ -7,6 +7,7 @@ Launch: połączenie z kontenerem docker oraz uruchomienie kontenera -> docker-c
 
 Generalne wydoki i zastosowanie: \
 register -> rejestracja użytkownika (validacja danych) \
+![img_3.png](img_3.png)
 login -> logowanie pracownika, wpisywanie emialu i hasała (metoda POST, GET) \
 ![img.png](img.png)
 homepage -> dane o nastepnej zmianie, grafik sprzątania, urlop \
